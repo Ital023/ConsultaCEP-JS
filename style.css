@@ -1,4 +1,40 @@
 .principal{
     min-height: 100vh;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.titulo{
+    font-size: 72px;
+}
+.negrito{
+    font-weight: bold;
+    color: rgb(17, 191, 37);
+}
+.consulta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+}
+.campo__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.botao__pesquisar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 18px;
+}
+.imagem{
+    width: 20px;
 }
