@@ -9,6 +9,7 @@
     gap: 50px;
     font-family: 'Ubuntu', sans-serif;
     background-color: rgb(223, 223, 223);
+    transition: .25s;
 }
 .titulo{
     font-size: 120px;
@@ -35,6 +36,7 @@
 .campo__escrita{
     border: 2px solid #000;
     border-radius: 28px;
+    color: #000;
 }
 .botao__pesquisar{
     display: flex;
@@ -67,6 +69,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
+    color: #000;
 }
 .subtitulo{
     align-self: center;
@@ -95,4 +98,46 @@
     background-color: rgb(13, 100, 23);
     border: 2px solid rgb(13, 100, 23);
     transition: .60s;
+}
+.modo-visual{
+    position: absolute;
+    right: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.imagem__trocar--fundo{
+    width: 30px;
+    transition: .25s;
+}
+
+.modo--escuro{
+    background-color: rgb(20, 20, 20);
+    color: rgb(221, 222, 221);
+}
+
+@media (max-width: 428px){
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 64px;
+    }
+    .consulta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .response--ativo{
+        width: 60%;
+        padding: 20px;
+    }
+    .modo-visual{
+        right: 10px;
+        margin-top: 0px;
+        top: 10px;
+    }
+
+
 }

@@ -9,14 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="principal">
+    <button class="modo-visual">
+        <img src="./assets/img/moon-solid (2).svg" alt="lua" class="imagem__trocar--fundo">
+    </button>
+    <main class="principal">  
         <h1 class="titulo">Consulta <b class="negrito">CEP</b></h1>
         <div class="consulta">
             <div class="campo__formulario">
                 <label for="cep--input">Insira o CEP:</label>
                 <input type="text" name="cep--input" id="cep--input" class="campo__escrita" required>
             </div>
-            <button class="botao__pesquisar">Pesquisar<img src="magnifying-glass-solid.svg" alt="lupa" class="imagem"></button>
+            <button class="botao__pesquisar">Pesquisar<img src="./assets/img/magnifying-glass-solid.svg" alt="lupa" class="imagem"></button>
         </div>
 
     
@@ -32,19 +35,15 @@
         <div class="redes">
             <h1 class="redes__titulo">Vamos nos conectar!</h1>
             <div class="redes__imagem">
-             <a href="https://github.com/Ital023"><img src="square-github (1).svg" alt="github" class="imagem"></a> 
-             <a href="https://twitter.com/italo_m20"><img src="twitter (1).svg" alt="twitter" class="imagem"></a>
-             <a href="https://www.linkedin.com/in/italomirandafont/"><img src="linkedin (2).svg" alt="linkedin" class="imagem"></a>
-             <a href="https://www.instagram.com/italo_m20/"><img src="square-instagram (3).svg" alt="instagram" class="imagem"></a>
+             <a href="https://github.com/Ital023"><img src="./assets/img/square-github (1).svg" alt="github" class="imagem img--github"></a> 
+             <a href="https://twitter.com/italo_m20"><img src="./assets/img/twitter (1).svg" alt="twitter" class="imagem img--twitter"></a>
+             <a href="https://www.linkedin.com/in/italomirandafont/"><img src="./assets/img/linkedin (2).svg" alt="linkedin" class="imagem img--linkedin"></a>
+             <a href="https://www.instagram.com/italo_m20/"><img src="./assets/img/square-instagram (3).svg" alt="instagram" class="imagem img--instagram"></a>
             </div>
          </div>
        
-        
-    </main>
-
-    
-    
-    
+    </main>    
     <script src="main.js"></script>
+    <script src="trocarVisual.js"></script>
 </body>
 </html>
